@@ -1,0 +1,21 @@
+# 게임 원본·산출물 (배포하지 않음)
+*.iso
+*.xdelta
+extract/
+work/
+translation/ko/
+translation/src/single.tsv
+translation/src/lines.tsv
+translation/src/para.tsv
+translation/fix.tsv
+
+# 글꼴·외부 실행 파일·이미지
+*.ttf
+*.otf
+*.exe
+*.dll
+*.png
+
+# 파이썬
+__pycache__/
+*.pyc

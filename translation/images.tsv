@@ -1,0 +1,229 @@
+# 이름	한글	옵션(JSON)
+b_help_01	결정	{"fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong", "box": [20, 0, 64, 32]}
+b_help_02	취소	{"fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong", "box": [20, 0, 128, 32]}
+b_help_03	뒤로	{"fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong", "box": [20, 0, 64, 32]}
+b_help_04	변경	{"box": [53, 0, 128, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_101	기술 재생	{"box": [24, 0, 128, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_105	:스킵	{"box": [44, 0, 128, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_106	다음	{"fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong", "box": [20, 0, 64, 32]}
+b_help_107	리플레이	{"box": [23, 0, 128, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_102	스크롤	{"box": [116, 0, 256, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_103	기술 재생	{"box": [88, 0, 256, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_104	해제	{"box": [87, 0, 256, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_201	이전 페이지	{"box": [32, 0, 256, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_202	다음 페이지	{"box": [32, 0, 256, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_203	상세	{"fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong", "box": [20, 0, 64, 32]}
+b_help_205	이전 컬렉션	{"box": [32, 0, 256, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_206	다음 컬렉션	{"box": [32, 0, 256, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_207	컬렉션 보기	{"fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong", "box": [20, 0, 256, 32]}
+b_help_209	다음	{"fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong", "box": [20, 0, 64, 32]}
+b_help_210	:정렬	{"box": [44, 0, 128, 32], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong"}
+b_help_211	확대	{"fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong", "box": [20, 0, 64, 32]}
+m_title_08	옵션	{"align": "left", "font": "heavy", "dx": 4, "h": 24, "sw": 2, "fill": [[255, 40, 40], [170, 0, 0]], "outline": [255, 255, 255]}
+m_title_09	컨트롤러 설정	{"align": "left", "font": "heavy", "dx": 4, "h": 24, "sw": 2, "fill": [[255, 40, 40], [170, 0, 0]], "outline": [255, 255, 255]}
+m_title_07r	서바이벌 결과	{"align": "left", "font": "heavy", "dx": 4, "h": 24, "sw": 2, "fill": [[255, 40, 40], [170, 0, 0]], "outline": [255, 255, 255]}
+m_title_05	토너먼트	{"align": "left", "font": "heavy", "dx": 4, "h": 24, "sw": 2, "fill": [[255, 40, 40], [170, 0, 0]], "outline": [255, 255, 255]}
+m_title_05r	토너먼트 결과	{"align": "left", "font": "heavy", "dx": 4, "h": 24, "sw": 2, "fill": [[255, 40, 40], [170, 0, 0]], "outline": [255, 255, 255]}
+m_title_20	컬렉션	{"align": "left", "font": "heavy", "dx": 4, "h": 24, "sw": 2, "fill": [[255, 40, 40], [170, 0, 0]], "outline": [255, 255, 255]}
+tm_window01	시합으로	{"fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong", "box": [33, 0, 128, 32]}
+tm_window02	CPU 대전	{"fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 2, "h": 20, "align": "left", "font": "myeong", "box": [33, 0, 128, 32]}
+Ps_101-A	아케이드	{"font": "myeong", "sw": 1}
+Ps_101-B	아케이드	{"font": "myeong", "sw": 2}
+Ps_102-A	토너먼트	{"font": "myeong", "sw": 1}
+Ps_102-B	토너먼트	{"font": "myeong", "sw": 2}
+Ps_103-A	컬렉션	{"font": "myeong", "sw": 1}
+Ps_103-B	컬렉션	{"font": "myeong", "sw": 2}
+Ps_104-A	연습	{"font": "myeong", "sw": 1}
+Ps_104-B	연습	{"font": "myeong", "sw": 2}
+Ps_105-A	옵션	{"font": "myeong", "sw": 1}
+Ps_105-B	옵션	{"font": "myeong", "sw": 2}
+Ps_106-A	게임 아카이브	{"font": "myeong", "sw": 1}
+Ps_106-B	게임 아카이브	{"font": "myeong", "sw": 2}
+tr_07a	우승!!	{"font": "heavy"}
+tr_07b	우승!!	{"font": "heavy"}
+tr_07c	우승!!	{"font": "heavy"}
+tr_07d	우승!!	{"font": "heavy"}
+wt_001	괴력 선택	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 170, 0], "outline": [255, 255, 255]}
+wt_002	스테이지 선택	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 220, 0], "outline": [255, 255, 255]}
+wt_003	공격 중시	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [90, 130, 255], "outline": [255, 255, 255]}
+wt_004	방어 중시	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [60, 220, 60], "outline": [255, 255, 255]}
+wt_005	벼랑 끝 괴력	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 50, 50], "outline": [255, 255, 255]}
+wt_100	랜덤	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_101	미하리 공원	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_102	5중 링	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_103	도쿄 타워 특설 링	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_104	시노바즈 연못	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_105	데몬 움	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_106	유원지	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_107	덴엔 콜로세움	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_108	지치부 연산	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_109	일본 부도칸	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_110	일본 알프스	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_111	토너먼트 마운틴	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_112	돗토리 사구	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_113	홋카이도 UFO 기지	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_114	고라쿠엔 특설 링	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_115	영계 포켓	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_116	오사카성 특설장	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_117	정육면체 링	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+wt_118	헤라클레스 손	{"font": "gal", "sw": 1, "h": 13, "box": [0, 0, 128, 16], "fill": [255, 255, 255], "outline": [0, 0, 0]}
+Col_101	대전	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 19, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [6, 3, 110, 21], "bold": true}
+Col_102	기술	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 19, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [6, 3, 110, 21], "bold": true}
+Col_103	링	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 19, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [6, 3, 110, 21], "bold": true}
+Col_104	에피소드	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 19, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [6, 3, 110, 21], "bold": true}
+Col_105	부제	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 19, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [6, 3, 110, 21], "bold": true}
+Col_201	초인	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 19, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [6, 3, 110, 21], "bold": true}
+Col_202	기술 1	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 19, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [6, 3, 110, 21], "bold": true}
+Col_203	기술 2	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 19, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [6, 3, 110, 21], "bold": true}
+Col_204	기술 3	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 19, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [6, 3, 110, 21], "bold": true}
+Col_205	기술 4	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 19, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [6, 3, 110, 21], "bold": true}
+Col_301	신규	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 17, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [4, 3, 40, 21], "bold": true, "clear": [2, 2, 48, 23]}
+Col_302	신규	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 100, "sw": 2, "h": 17, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [4, 3, 40, 21], "bold": true, "clear": [2, 2, 48, 23]}
+Col_303	전체	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 17, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [4, 3, 40, 21], "bold": true, "clear": [2, 2, 48, 23]}
+Col_304	전체	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 100, "sw": 2, "h": 17, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [4, 3, 40, 21], "bold": true, "clear": [2, 2, 48, 23]}
+Ks_001	공격	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 17, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [3, 3, 44, 22], "bold": true, "clear": [2, 2, 63, 25]}
+Ks_002	방어	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 17, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [3, 3, 44, 22], "bold": true, "clear": [2, 2, 63, 25]}
+Ks_003	괴력	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 2, "h": 17, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [3, 3, 44, 22], "bold": true, "clear": [2, 2, 63, 25]}
+Mt_301	공	{"font": "gal", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 1, "h": 11, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [1, 1, 15, 15]}
+Mt_302	방	{"font": "gal", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 1, "h": 11, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [1, 1, 15, 15]}
+Mt_303	괴	{"font": "gal", "bg": "inpaint", "inpaint_sel": "bright", "thr": 150, "sw": 1, "h": 11, "fill": [255, 255, 255], "outline": [0, 0, 0], "box": [1, 1, 15, 15]}
+AL_001	사용상의 주의	{"font": "myeongB", "box": [150, 120, 360, 165], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 1, "extra": [["건강을 위해 게임을 즐기실 때는 가급적\n방을 밝게 하고 화면에서 최대한\n떨어져서 이용해 주십시오.\n또한 장시간 이용할 때는 적당히\n휴식을 취해 주십시오. 1시간마다\n10~15분의 휴식을 권장합니다.", {"font": "myeongB", "box": [60, 195, 460, 400], "fill": [255, 255, 255], "outline": [0, 0, 0], "sw": 1, "align": "left", "bg": "fill", "bgcol": [0, 0, 0], "h": 150}]], "bg": "fill", "bgcol": [0, 0, 0], "h": 20}
+title_01	근육맨 머슬 그랑프리2 특상	{"font": "heavy", "bg": "inpaint", "inpaint_sel": "bright", "thr": 200, "box": [183, 289, 445, 305], "h": 14, "fill": [255, 255, 255], "nooutline": true, "sw": 1, "fit_box": true}
+Nn_01A	기적의 역전 파이터	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_01B	기적의 역전 파이터	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_01C	전일본 소고기덮밥 애호회 회장	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_02A	텍사스의 야생마	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_02C	텍사스의 야생마	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_02D	텍사스의 야생마	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_02B	카메하메의 유지를 잇는 남자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_03A	가면의 귀공자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_03B	가면의 귀공자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_03C	가면의 귀공자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_04A	남자는 말없이 잔혹 라면	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_04C	남자는 말없이 잔혹 라면	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_04B	초인계의 구세주	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_04D	초인계의 구세주	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_05A	파이팅 컴퓨터	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_05C	파이팅 컴퓨터	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_05B	칠흑의 뇌세포	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_06A	긍지 높은 게르만 전사	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_06B	긍지 높은 게르만 전사	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_06C	긍지 높은 게르만 전사	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_07A	초인 스모계의 요코즈나	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_07B	초인 스모계의 요코즈나	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_08A	화려한 4차원 살법의 조인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_08B	화려한 4차원 살법의 조인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_09A	1천만 파워 초인 발전소	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_09B	1천만 파워 초인 발전소	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_09C	1천만 파워 초인 발전소	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_10A	마계의 왕자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_10B	마계의 왕자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_10C	마계의 왕자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_11A	모래지옥의 파수꾼	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_11B	거대한 모래의 벽	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_12A	작열의 일본 닌자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_12B	작열의 일본 닌자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_13A	최강의 유전자를 잇는 남자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_13B	최강의 유전자를 잇는 남자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_14A	난공불락의 철기병	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_14B	난공불락의 철기병	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_15A	모든 걸 물에 흘려보내는 남자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_15B	모든 걸 물에 흘려보내는 남자	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_16A	악마 최후의 자객	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_16B	악마에게 혼을 판 투쟁의 신	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_17A	1000개의 몸을 가진 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_17B	1000개의 몸을 가진 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_18A	이차원에서 온 자객	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_18B	이차원에서 온 자객	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_19A	신축자재의 용수철 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_19B	신축자재의 용수철 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_20A	초인 산맥	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_20B	초인 산맥	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_21A	승리를 점치는 이집트의 괴초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_21B	승리를 점치는 이집트의 괴초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_22A	물의 마술사	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_22B	물의 마술사	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_23A	악어 지옥의 변신 마스터	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_23B	악어 지옥의 변신 마스터	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_24A	태양계를 지배하는 암흑의 힘	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_24B	태양계를 지배하는 암흑의 힘	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_25A	피바다 지옥의 크러셔	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_25B	피바다 지옥의 크러셔	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_26A	근성만큼은 누구에게도 안 져	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_26B	근성만큼은 누구에게도 안 져	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_27A	텍사스의 날뛰는 말	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_27B	텍사스의 날뛰는 말	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_28A	인연의 투사	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_28B	인연의 투사	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_29A	불사신의 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_29B	불사신의 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_30A	창백한 뇌세포	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_30B	창백한 뇌세포	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_31A	붉은 죽음의 비행기	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_31B	붉은 죽음의 비행기	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_32A	전율의 에로 핵탄두	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_32B	전율의 에로 핵탄두	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_33A	어리석음을 용서 않는 근육 왕가의 장남	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_33B	어리석음을 용서 않는 근육 왕가의 장남	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_34A	화려한 비상 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_34B	화려한 비상 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_35A	천사와 악마가 깃든 기교 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_35B	원한과 증오의 잔학 파이터	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_36A	강력 거인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_36B	강력 거인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_37A	지성 넘치는 천재 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_37B	지성 넘치는 천재 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_38A	완전무결의 완벽 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_38B	완전무결의 완벽 초인	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_39A	죽음도 두려워 않는 충실한 병사	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_39C	죽음도 두려워 않는 충실한 병사	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_39B	완벽 초인의 수령	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Nn_39D	완벽 초인의 수령	{"rot180": true, "font": "myeong", "box": [0, 0, 256, 32], "area": [2, 2, 254, 30], "h": 24, "sw": 2, "fill": [255, 255, 255], "outline": [0, 0, 0], "align": "center", "vert": true}
+Cn_00	랜덤	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_01	근육맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_02	테리맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_02b	2대째 근육맨 그레이트	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_03	로빈 마스크	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_04	라면맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_04b	몽골맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_04d	구세주	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_05	워즈맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_05b	클로에	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_06	브로켄 Jr.	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_07	울프맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_08	펜타곤	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_09	버팔로맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_10	아수라맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_11	선샤인	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_12	더 닌자	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_13	근육 만타로	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_14	케빈 마스크	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_15	변기맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_16	악마 장군	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_16b	골드맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_17	스테카세 킹	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_18	블랙홀	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_19	스프링맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_20	더 마운텐	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_21	미스터 카멘	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_22	아틀란티스	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_23	스니게이터	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_24	플래닛맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_25	정크맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_26	제로니모	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_27	테리 더 키드	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_28	제이드	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_29	체크메이트	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_30	스카페이스	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_31	일류힌	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_32	배리어프리맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_33	근육맨 솔저	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_34	마리포사	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_35	제브라	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_36	빅 바디	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_37	슈퍼 피닉스	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_38	넵튠맨	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_39	빅 더 무도	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+Cn_39b	넵튠 킹	{"font": "myeong", "bg": "inpaint", "inpaint_sel": "dark", "thr": 130, "box": [0, 0, 256, 20], "h": 18, "sw": 1, "bymatch": "Cn_", "bold": true}
+sr_010	인 돌파!	{"font":"heavy","sw":2}
+덤	{"font":"myeong","bg":"inpaint","inpaint_sel":"dark","thr":150,"dil":1,"box":[1,1,31,24],"h":21,"sw":1,"fill":[30,30,30],"outline":[230,230,230],"fit_box":true}
