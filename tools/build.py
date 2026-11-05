@@ -246,12 +246,23 @@ def main(out=OUT_ISO):
         for ch in t:
             b = ch.encode('cp932', 'ignore')
             if len(b) == 2 and ((b[0] << 8) | b[1]) >= 0x889F: keep.add((b[0] << 8) | b[1])
+    # 원본 가나·기호(0x8140~)는 실제로 쓰는 것만 남긴다(대전 중 상주하는 font.pft가 원본보다 크면 매치업 화면에서 1P 모델이 안 뜬다)
+    low = set()
+    for dct in (single, lines, para):
+        for jp, ko in dct.items():
+            for ch in (jp if ko == '=' else ko):
+                b2 = ch.encode('cp932', 'ignore')
+                if len(b2) == 2: low.add((b2[0] << 8) | b2[1])
+    for jp, ko in elf_tr.values():
+        for ch in (jp if ko in ('=', jp) else ko):
+            b2 = ch.encode('cp932', 'ignore')
+            if len(b2) == 2: low.add((b2[0] << 8) | b2[1])
     rep = {}
     cm = None
     for idx, fn in [(248, 'collection_font'), (249, 'font')]:
         src = open(os.path.join(ROOT, 'extract', 'afs', 'font', fn + '.pft'), 'rb').read()
         o, cm = build_font.build(src, korean, os.path.join(ROOT, 'SeoulHangangEB.ttf'), 25, 26, keep=keep,
-                                 keep_glyphs=(fn == 'font'))   # 스태프롤 한자는 font.pft에만
+                                 keep_glyphs=(fn == 'font'), low=low)   # 스태프롤 한자는 font.pft에만
         rep[idx] = o
     p = PFT(rep[249]); widths = {c: sum(p.width(i)) for c, i in p.codes().items()}
     enc = Enc(cm, widths)

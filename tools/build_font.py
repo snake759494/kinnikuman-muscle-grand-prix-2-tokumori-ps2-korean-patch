@@ -25,25 +25,38 @@ def charmap(chars, skip=()):
         out[ch] = c
     return out
 
-def render(ch, font, size_box=32, base=26, dx=0, bold=0.9):
+def enc(c, a):
+    """4비트 색(c)·4비트 알파(a)를 원본 팔레트(스위즐된 CLUT) 인덱스로."""
+    return (c & 7) | ((c >> 3) & 1) << 4 | (a & 1) << 3 | (a >> 1) << 5
+
+def render(ch, font, size_box=32, base=26, dx=0, bold=0.3):
+    """원본 글자처럼: 알파=테두리까지 포함한 덮임, 색=테두리 8·안쪽 15."""
     from PIL import ImageFilter
-    im = Image.new('L', (64, 64)); dr = ImageDraw.Draw(im)
-    dr.text((8, 8 + base), ch, font=font, fill=255, anchor='ls')
-    if bold:
-        a0 = np.array(im).astype(float); a1 = np.array(im.filter(ImageFilter.MaxFilter(3))).astype(float)
-        im = Image.fromarray(np.clip(a0 * (1 - bold) + a1 * bold, 0, 255).astype(np.uint8))
-    a = np.array(im); cols = np.where(a.max(0) > 0)[0]
-    if len(cols) == 0: return np.zeros((32, 32), np.uint8), 0, 8
+    S = 4
+    im = Image.new('L', (64 * S, 64 * S)); dr = ImageDraw.Draw(im)
+    font = ImageFont.truetype(font.path, font.size * S)
+    dr.text((8 * S, (8 + base) * S), ch, font=font, fill=255, anchor='ls',
+            stroke_width=int(bold * S), stroke_fill=255)
+    out = im.filter(ImageFilter.MaxFilter(S + 1))      # 약 0.6px 테두리
+    f = np.array(im.resize((64, 64), Image.BOX)).astype(float) / 255
+    o = np.array(out.resize((64, 64), Image.BOX)).astype(float) / 255
+    cols = np.where(o.max(0) > 0.05)[0]
+    if len(cols) == 0: return np.zeros((32, 32), np.uint8), 0
     x0, x1 = cols.min(), cols.max()
-    g = np.zeros((32, 32), np.uint8)
     w = min(32, x1 - x0 + 1)
-    g[:, :w] = a[8:40, x0:x0 + w]
+    F = f[8:40, x0:x0 + w]; O = o[8:40, x0:x0 + w]
+    A = np.rint(O * 15).astype(int)
+    C = np.rint(8 + 7 * np.clip(F / np.maximum(O, 1e-6), 0, 1)).astype(int)
+    C[A == 0] = 0
+    g = np.zeros((32, 32), np.uint8)
+    g[:, :w] = np.vectorize(enc)(C, A)
     return g, w
 
-def build(src, korean, ttf, px, base, adv=25, out=None, keep=(), keep_glyphs=True):
+def build(src, korean, ttf, px, base, adv=25, out=None, keep=(), keep_glyphs=True, low=None):
     p = PFT(src); codes = p.codes()
     keepk = set(keep)
-    keep = {c: i for c, i in codes.items() if c < 0x889F or (keep_glyphs and c in keepk)}
+    keep = {c: i for c, i in codes.items()
+            if (c < 0x889F and (low is None or c < 0x100 or c in low)) or (keep_glyphs and c in keepk)}
     glyphs = []; widths = []; table = {}
     for c in sorted(keep):
         table[c] = len(glyphs); glyphs.append(p.glyph(keep[c]).copy()); widths.append(p.width(keep[c]))
