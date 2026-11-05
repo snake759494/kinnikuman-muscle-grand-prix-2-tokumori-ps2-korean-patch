@@ -237,8 +237,8 @@ def main(out=OUT_ISO):
     for dct in (single, lines, para):
         for v in dct.values(): used |= set(v)
     for jp, ko in elf_tr.values(): used |= set(ko)
-    extra = sorted(c for c in used if ('가' <= c <= '힣' or 'ㄱ' <= c <= 'ㆎ') and c not in set(ks))
-    korean = ks + extra
+    # 번역에 쓰인 한글만 넣는다(2,350자 전부 넣으면 글꼴이 원본보다 1.6MB 커져 데모 대전 로딩 중 메모리가 넘친다)
+    korean = sorted(c for c in used if '가' <= c <= '힣' or 'ㄱ' <= c <= 'ㆎ')
     # 남길 한자(스태프 인명·커맨드 기호)
     keep_txt = [jp for jp, ko in single.items() if ko == '='] + ['打組必']
     keep = set()
@@ -250,7 +250,8 @@ def main(out=OUT_ISO):
     cm = None
     for idx, fn in [(248, 'collection_font'), (249, 'font')]:
         src = open(os.path.join(ROOT, 'extract', 'afs', 'font', fn + '.pft'), 'rb').read()
-        o, cm = build_font.build(src, korean, os.path.join(ROOT, 'SeoulHangangEB.ttf'), 25, 26, keep=keep)
+        o, cm = build_font.build(src, korean, os.path.join(ROOT, 'SeoulHangangEB.ttf'), 25, 26, keep=keep,
+                                 keep_glyphs=(fn == 'font'))   # 스태프롤 한자는 font.pft에만
         rep[idx] = o
     p = PFT(rep[249]); widths = {c: sum(p.width(i)) for c, i in p.codes().items()}
     enc = Enc(cm, widths)

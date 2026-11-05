@@ -40,10 +40,10 @@ def render(ch, font, size_box=32, base=26, dx=0, bold=0.9):
     g[:, :w] = a[8:40, x0:x0 + w]
     return g, w
 
-def build(src, korean, ttf, px, base, adv=25, out=None, keep=()):
+def build(src, korean, ttf, px, base, adv=25, out=None, keep=(), keep_glyphs=True):
     p = PFT(src); codes = p.codes()
     keepk = set(keep)
-    keep = {c: i for c, i in codes.items() if c < 0x889F or c in keepk}
+    keep = {c: i for c, i in codes.items() if c < 0x889F or (keep_glyphs and c in keepk)}
     glyphs = []; widths = []; table = {}
     for c in sorted(keep):
         table[c] = len(glyphs); glyphs.append(p.glyph(keep[c]).copy()); widths.append(p.width(keep[c]))

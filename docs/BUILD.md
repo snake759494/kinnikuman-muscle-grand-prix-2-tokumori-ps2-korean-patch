@@ -15,7 +15,7 @@ python tools/build.py       # → "Kinnikuman - Muscle Grand Prix 2 - Tokumori (
 
 ## 차분 파일
 ```powershell
-.\xdelta.exe -e -0 -S none -A -s "Kinnikuman - Muscle Grand Prix 2 - Tokumori (Japan).iso" "Kinnikuman - Muscle Grand Prix 2 - Tokumori (Japan) [KO].iso" Kinnikuman_MGP2_Tokumori_PS2_KO_v1.0.xdelta
+.\xdelta.exe -e -0 -S none -A -s "Kinnikuman - Muscle Grand Prix 2 - Tokumori (Japan).iso" "Kinnikuman - Muscle Grand Prix 2 - Tokumori (Japan) [KO].iso" Kinnikuman_MGP2_Tokumori_PS2_KO_v1.1.xdelta
 ```
 
 ## 파일
@@ -25,4 +25,4 @@ python tools/build.py       # → "Kinnikuman - Muscle Grand Prix 2 - Tokumori (
 - `translation/src/elf.tsv`: 실행파일 문자열 위치·칸 크기
 - `tools/build.py`: 전체 빌드, `build_font.py`·`pft.py` PFNT 글꼴, `cxml.py` CXML, `pack.py` PACK, `gs.py` 텍스처, `img_ko.py` 그림 글자, `afs.py`·`build_iso.py`·`isopatch.py` 디스크, `extract_text.py`·`units.py`·`tree.py` 문자열 추출
 - `tools/emu.py`, `sheets.py`, `texdump.py`: 검증·조사용 스크립트(개인 환경용)
-- `SLPS-25881_2ABD62D3.pnach`: 16:9 와이드 패치
+- `SLPS-25881_E80C42C3.pnach`: 16:9 와이드 패치
