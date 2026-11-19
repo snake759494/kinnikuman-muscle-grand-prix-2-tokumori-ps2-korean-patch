@@ -1,7 +1,7 @@
 """한글패치 빌드: 번역(translation/ko) + 폰트 + 이미지 → 근육맨 머슬그랑프리2 특상 한글판 ISO."""
 import sys, os, re, struct, glob, json, collections, hashlib, time
 sys.path.insert(0, os.path.dirname(__file__))
-import afs, build_iso, build_font, units, tree
+import afs, build_iso, build_font, units, tree, efp_ko
 from cxml import CXML
 from pack import PACK
 from pft import PFT
@@ -270,6 +270,12 @@ def main(out=OUT_ISO):
     imgs = load_images()
     # AFS 순회
     f = open(afs.ISO, 'rb'); n, ent = afs.table(f); nm = afs.names()
+    # 이펙트 그림 글자(초필살기 이름 띠·풍림화산 타일)
+    efk = efp_ko.build_keys(lambda fn: afs.read(f, ent, nm.index('effect' + chr(92) + fn + '.efp')))
+    for i in range(n):
+        if nm[i].startswith('effect' + chr(92)) and nm[i].endswith('.efp'):
+            nd, c = efp_ko.patch(afs.read(f, ent, i), None, efk)
+            if c: rep[i] = nd; log['efp'] += c
     for i in range(n):
         top = nm[i].split('\\')[0]
         if top in ('voice', 'bgm', 'movie', 'se', 'effect', 'stage', 'font'): continue

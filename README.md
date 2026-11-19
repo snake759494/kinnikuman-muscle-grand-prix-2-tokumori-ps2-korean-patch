@@ -1,10 +1,10 @@
 # 근육맨 머슬 그랑프리2 특상 PS2 한글패치
 
-PS2 일본판 **근육맨 머슬 그랑프리2 특상(キン肉マン マッスルグランプリ2 特盛, SLPS-25881)**용 비공식 한국어 패치입니다. **메뉴·설명문·팁·커맨드 리스트·기술명·초인 이름·컬렉션(에피소드 456종)** 등 게임 문자열과, **타이틀 로고 아래 제목 띠·화면 제목·도움말 버튼·스테이지 이름·캐릭터 이름판·VS 화면 별명 문구** 등 그림 글자를 한국어로 바꿨습니다. PCSX2용 **16:9 와이드 패치**도 함께 배포합니다. 현재 배포판은 **v1.2 (2026-11-06)**입니다.
+PS2 일본판 **근육맨 머슬 그랑프리2 특상(キン肉マン マッスルグランプリ2 特盛, SLPS-25881)**용 비공식 한국어 패치입니다. **메뉴·설명문·팁·커맨드 리스트·기술명·초인 이름·컬렉션(에피소드 456종)** 등 게임 문자열과, **타이틀 로고 아래 제목 띠·화면 제목·도움말 버튼·스테이지 이름·캐릭터 이름판·VS 화면 별명 문구** 등 그림 글자를 한국어로 바꿨습니다. PCSX2용 **16:9 와이드 패치**도 함께 배포합니다. 현재 배포판은 **v1.3 (2026-11-19)**입니다.
 
 [패치 다운로드](https://github.com/snake759494/kinnikuman-muscle-grand-prix-2-tokumori-ps2-korean-patch/releases/latest) · [기술 설명](docs/TECHNICAL.md) · [재빌드](docs/BUILD.md) · [변경 기록](CHANGELOG.md) · [권리 안내](RIGHTS.md)
 
-릴리즈 첨부 파일은 한글패치 **Kinnikuman_MGP2_Tokumori_PS2_KO_v1.2.xdelta**와 와이드 패치 **SLPS-25881_9395CBE2.pnach**입니다. 저장소에는 제작 소스와 한국어 번역만 공개합니다. 원본·완성 디스크 이미지, 추출한 게임 파일, 일본어 원문, 글꼴 파일, 외부 실행 파일은 포함하지 않습니다. GitHub가 자동으로 만드는 Source code ZIP/TAR는 저장소 소스를 압축한 것이며 게임 파일이 아닙니다.
+릴리즈 첨부 파일은 한글패치 **Kinnikuman_MGP2_Tokumori_PS2_KO_v1.3.xdelta**와 와이드 패치 **SLPS-25881_9395CBE2.pnach**입니다. 저장소에는 제작 소스와 한국어 번역만 공개합니다. 원본·완성 디스크 이미지, 추출한 게임 파일, 일본어 원문, 글꼴 파일, 외부 실행 파일은 포함하지 않습니다. GitHub가 자동으로 만드는 Source code ZIP/TAR는 저장소 소스를 압축한 것이며 게임 파일이 아닙니다.
 
 ## 게임 소개 및 대상 버전
 
@@ -22,11 +22,11 @@ PS2 일본판 **근육맨 머슬 그랑프리2 특상(キン肉マン マッス�
 | **원본 ISO MD5** | `0aa259a64cf6414b5eb95111c5688414` |
 | 원본 ISO SHA-1 | `053351d5e691cb1ed19d0eea8920a1f6f6e00d81` |
 | 원본 ISO SHA-256 | `7fc43dacd482c25cfa0c0c47d4fc02920ffb229a57a9432c5c0240110db06ec4` |
-| xdelta 파일 크기 | 7,121,827 바이트 |
-| xdelta SHA-256 | `bfee7d675a0fcfad40d91ed243776adbdd28869b0afc3007aea8424e5af1c856` |
+| xdelta 파일 크기 | 8,091,245 바이트 |
+| xdelta SHA-256 | `adfadca729dd44fe7a92313429fb0cb4487009e85b538103f7efd88e55949ba2` |
 | 적용 결과 ISO 크기 | 1,590,812,672 바이트 |
-| 적용 결과 ISO SHA-1 | `cbd6c0f37660438fc2300a8324e97e8dfd8cafcc` |
-| 적용 결과 ISO SHA-256 | `abeb1740e9e3938b46c05031db4919fa6b649119c83c3947421ff7293041cffc` |
+| 적용 결과 ISO SHA-1 | `e7fd5e816e958eb9828f85d8b64139fb28074e2b` |
+| 적용 결과 ISO SHA-256 | `6aa2d6bd5057a2ea6c0914ae7b79d06b9bb27e7d2277c10ecf784efba6dc0d35` |
 | 적용 결과 게임 CRC (PCSX2) | `9395CBE2` |
 
 원본 게임 파일은 사용자가 직접 준비해야 합니다.
@@ -41,7 +41,7 @@ Get-FileHash -Algorithm MD5 -LiteralPath '.\Kinnikuman - Muscle Grand Prix 2 - T
 
 ### xdelta UI 사용
 
-1. 릴리즈에서 `Kinnikuman_MGP2_Tokumori_PS2_KO_v1.2.xdelta`를 받습니다.
+1. 릴리즈에서 `Kinnikuman_MGP2_Tokumori_PS2_KO_v1.3.xdelta`를 받습니다.
 2. xdelta3 패치를 지원하는 도구에서 **Apply Patch** 기능을 엽니다.
 3. **Patch**에는 xdelta 파일을, **Source File**에는 해시가 일치하는 원본 `.iso`를 선택합니다.
 4. **Output File**에는 새 파일 이름을 지정합니다(예: `Kinnikuman MGP2 Tokumori (Korean).iso`).
@@ -51,7 +51,7 @@ xdelta는 호환성을 위해 압축·2차 압축·파일 경로 헤더 없이 �
 ### 명령줄 사용
 
 ```powershell
-.\xdelta3.exe -d -s '.\Kinnikuman - Muscle Grand Prix 2 - Tokumori (Japan).iso' '.\Kinnikuman_MGP2_Tokumori_PS2_KO_v1.2.xdelta' '.\Kinnikuman MGP2 Tokumori (Korean).iso'
+.\xdelta3.exe -d -s '.\Kinnikuman - Muscle Grand Prix 2 - Tokumori (Japan).iso' '.\Kinnikuman_MGP2_Tokumori_PS2_KO_v1.3.xdelta' '.\Kinnikuman MGP2 Tokumori (Korean).iso'
 ```
 
 원본판 세이브 스테이트는 쓰지 마세요. 메모리 카드 세이브는 원본판과 호환됩니다.
@@ -78,7 +78,7 @@ xdelta는 호환성을 위해 압축·2차 압축·파일 경로 헤더 없이 �
 ## 한글화 범위
 
 - 게임 문자열 약 3,060개: 메뉴·옵션·모드 설명, 커맨드 리스트(캐릭터별 기술명·분류), 초인 이름, 연습 모드·게이지·컨트롤러 설정, 토너먼트, 컨티뉴 화면 팁, 게임 아카이브 확인창, 컬렉션(기술 해설 456개·에피소드 제목), 스태프롤(인명은 한글 독음), 실행파일 안 문자열 392개(스테이지 이름 등)
-- 그림 글자: 타이틀 로고 아래 제목 띠("근육맨 머슬 그랑프리2 특상"), 타이틀 메뉴, 화면 제목, 도움말 버튼, 컬렉션 탭, 스테이지 이름, 시작 주의 화면, 우승 문구, 서바이벌 "인 돌파!", 캐릭터 이름판 46종, VS 화면 별명 문구 90종 등
+- 그림 글자: 타이틀 로고 아래 제목 띠("근육맨 머슬 그랑프리2 특상"), 타이틀 메뉴, 화면 제목, 도움말 버튼, 컬렉션 탭, 스테이지 이름, 시작 주의 화면, 우승 문구, 서바이벌 "인 돌파!", 캐릭터 이름판 46종, VS 화면 별명 문구 90종, 초필살기·기술 이름 띠 76종(전 캐릭터·전 의상), 근육맨 기술 이펙트의 풍림화산 한자 4장 등
 - 글꼴: 서울한강체 EB(원본의 굵은 명조체와 비슷한 글꼴), 그림 글자 일부에 나눔스퀘어 네오, 아주 작은 글자에 갈무리
 - 원문 유지: 로고, 저작권 표기, 영문 UI 글자, 경기장 배경 현수막, 메뉴 선택 번쩍임 효과 그림, 캐릭터 선택판의 작은 "ランダム" 타일, 게임 아카이브의 보너스 게임(SLPM-53960)
 
